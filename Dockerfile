@@ -1,5 +1,5 @@
 FROM node
-LABEL name "express-hello-world"
+LABEL name "nextjs"
 RUN mkdir /app
 WORKDIR /app
 COPY package.json /app

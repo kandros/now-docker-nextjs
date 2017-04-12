@@ -1,3 +1,7 @@
+import Link from 'next/link'
 export default () => (
-    <div>Hello from docker</div>
+    <div>
+        <h1>Hello from docker</h1>
+        <Link href="/another-page">another page</Link>
+    </div>
 )
